@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 import xml.etree.ElementTree as ET
-root = ET.parse('families.xml').getroot()
+import os
+path = os.path.dirname(__file__) + "/families.xml"
+root = ET.parse(path).getroot()
 count = 0
 
 def getMem(mcu):
