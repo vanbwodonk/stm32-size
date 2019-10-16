@@ -17,7 +17,7 @@ stm32-size [STM32-Chip-Family] [FILE.elf]
 ### Example
 
 ```bash
-stm32-size stm32-size STM32F103C8 firmware.elf 
+stm32-size STM32F103C8 firmware.elf 
 ```
 output:
 ```bash
